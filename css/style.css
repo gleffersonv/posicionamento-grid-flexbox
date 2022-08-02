@@ -1,7 +1,12 @@
-body {
+body{
   background: #f7f7f7;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+}
+.header{
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -24,7 +29,7 @@ p {
 a {
   text-decoration: none;
 }
-.menu {
+.menu{
   flex-wrap: wrap;
   display: flex;
   gap: 20px;
@@ -36,6 +41,13 @@ a {
   border-radius: 4px;
   color: black;
   text-transform: uppercase;
+}
+.menu li{
+  list-style: none;
+}
+nav a:hover{
+  background-color:dimgray;
+  color: white;
 }
 .box {
   display: grid;
@@ -51,6 +63,20 @@ a {
   gap: 20px;
   align-content: center;
   justify-items: end;
+}
+.box-one a:hover{
+  background-color: brown;
+}
+.box-one::before{
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: red;
+  top: 30px;
+  right: -30px;
+
+
 }
 .bnt{
   background: red;
@@ -70,25 +96,23 @@ a {
   gap: 10px 20px;
   padding: 20px;
 }
+.info-item:nth-child(odd){
+  background-color:#f7f7f7;
+}
+.info-item:hover{
+  border-left:4px solid red;
+}
 .info p{
   grid-column: 2;
 }
-.rodape {
+footer {
   text-align: center;
   width: 100%;
   background: white;
   padding: 40px;
   box-sizing: border-box;
 }
-.detalhe{
-  width: 60px;
-  height: 4px;
-  background: red;
-  position: absolute;
-  top: 30px;
-  right: -30px;
 
-}
 .subtitulo{
   text-transform: uppercase;
   font-size: 60px;
@@ -96,5 +120,6 @@ a {
   text-align: end;
   padding: 40px;
   align-self: center;
+  background-image: url(../img/onda.svg);
 
 }
