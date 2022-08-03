@@ -23,7 +23,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML
 - CSS
-- SEM RESPONSIVIDADE
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
