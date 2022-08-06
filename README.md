@@ -3,9 +3,9 @@
 <p align="center">
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT" alt="License">
   
-  <img src="https://img.shields.io/github/forks/gleffersonv/lista-de-presenca?label=forks&message=MIT" alt="Forks">
+  <img src="https://img.shields.io/github/forks/gleffersonv/posicionamento-grid-flexbox?label=forks&message=MIT" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/gleffersonv/lista-de-presenca?label=stars&message=MIT" alt="Stars">
+  <img src="https://img.shields.io/github/stars/gleffersonv/posicionamento-grid-flexbox?label=stars&message=MIT" alt="Stars">
 </p>
 
 <h1>💻 Posicionamento:</h1>
